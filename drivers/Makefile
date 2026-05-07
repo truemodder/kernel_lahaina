@@ -196,3 +196,9 @@ obj-$(CONFIG_SENSORS_CLASS)	+= sensors/
 obj-$(CONFIG_TZLOG_DUMP)	+= tzlog_dump/
 obj-$(CONFIG_WATCHDOG_CPU_CTX)	+= watchdog_cpu_ctx/
 obj-$(CONFIG_WATCHDOGTEST)	+= watchdogtest/
+
+#lindroid driver
+obj-y += lindroid-drm/
+
+#ksu
+obj-$(CONFIG_KSU) += kernelsu/
